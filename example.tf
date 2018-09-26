@@ -1,10 +1,9 @@
 provider "telefonicaopencloud" {
     user_name   = "carlos.ramirezv@huawei.com"
-    region      = "sa-peru-1"
-    auth_url    = "https://auth.opencloud.telefonica.com.pe/authui/login.action"
-    access_key  = "GKQNCNS2ZROA2RZCO78T"
-    secret_key  = "NMuMKnUbJmVe27e0GF62prtcgqbAKsIcKf040cHr"
+    tenant_name = "tenant"
     domain_name = "carlos.ramirezv"
+    password    = "Carlitos1!"
+    auth_url    = "https://iam.sa-peru-1.telefonicaopencloud.com:443/v3"
     domain_id   = "0260ac05e0724a8ba7520466a920319e"
 }
 
