@@ -1,6 +1,7 @@
 provider "telefonicaopencloud" {
     user_name   = "carlos.ramirezv@huawei.com"
     domain_name = "carlos.ramirezv"
+    tenant_name = "sa-peru-1"
     password    = "Carlitos1!"
     auth_url    = "https://iam.sa-peru-1.telefonicaopencloud.com:443/v3"
 }
